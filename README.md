@@ -1,58 +1,53 @@
-# 🚐 RV Rental Landing Page
+# RV Rental Landing
 
-> **Responsive landing page for an RV / campervan rental service.**  
-> Built with pure HTML, CSS, and a touch of JavaScript — no frameworks, no bloat.
+Responsive landing page demo for an RV / campervan rental service. Built with semantic HTML, modern CSS, and vanilla JavaScript — no framework or build step.
 
-![Preview](https://via.placeholder.com/800x400/1a1a2e/FF6B35?text=RV+Rental+Landing)
+> **Portfolio demo:** the booking form validates input and shows a local confirmation only. It does not send data to a backend. Demo images use Unsplash and typography uses Google Fonts.
 
-## ✨ Features
+## Features
 
-- 🌅 **Hero section** with full-screen background and CTA
-- 🚌 **Vehicle showcase** — fleet cards with pricing
-- 📍 **How it works** — step-by-step rental guide
-- 🗺️ **Popular destinations** section
-- 📞 **Contact form** with validation
-- 📱 **Fully responsive** — mobile, tablet, desktop
-- 🎨 **Modern design** — warm, inviting color palette
-- ⚡ **Lightweight** — no external dependencies, loads instantly
+- Responsive hero section with CTA
+- Vehicle showcase with pricing cards and slider controls
+- Step-by-step rental guide
+- Popular destinations section
+- Front-end form validation with a clear demo confirmation
+- Mobile, tablet, and desktop layouts
+- Lightweight static deployment
 
-## 🛠️ Tech Stack
+## Tech stack
 
-- **HTML5** — semantic markup
-- **CSS3** — Flexbox, Grid, custom properties, animations
-- **Vanilla JavaScript** — form validation, smooth scroll, mobile menu
-- **Google Fonts** — typography
+- HTML5 — semantic markup
+- CSS3 — Grid, Flexbox, custom properties, animations
+- Vanilla JavaScript — form validation, smooth scroll, mobile menu, slider
+- External demo assets — Google Fonts and Unsplash
 
-## 🚀 Quick Start
+## Run locally
 
 ```bash
-# Just open in browser!
-open index.html
-# Or serve locally
-npx serve .
+git clone https://github.com/SmeshTV/rv-rental-landing.git
+cd rv-rental-landing
+python -m http.server 8000
 ```
 
-## 📁 Files
+Open `http://localhost:8000` in a browser.
 
-```
+## Project structure
+
+```text
 rv-rental-landing/
-├── index.html          # Main landing page
-└── README.md           # This file
+├── index.html
+└── README.md
 ```
 
-## 🎯 What This Demonstrates
-
-- Clean, semantic HTML5 structure
-- Modern CSS layout techniques (Flexbox, Grid)
-- Responsive design without frameworks
-- Mobile-first approach
-- Form validation with vanilla JS
-- Performance optimization (no libraries, fast load)
-
-## 🔗 Live Demo
+## Live demo
 
 [View on GitHub Pages](https://smeshtv.github.io/rv-rental-landing/)
 
----
+## Production checklist
 
-Project for practice and portfolio. Built with ❤️ by Arman Smesh
+- Connect the form to a backend or form service.
+- Replace demo contact details, prices, and images.
+- Add real availability and booking logic.
+- Add a privacy policy and analytics only if needed.
+
+Built as a portfolio project by [Arman Smesh](https://github.com/SmeshTV).
